@@ -1,0 +1,12 @@
+# Кэш Python — в репозиторий не нужен
+__pycache__/
+*.pyc
+
+# База журнала — локальные данные
+SmbWatchdog.db
+SmbWatchdog.db-journal
+*.db
+*.db-journal
+
+# Служебный файл проверки записи
+.write-test
